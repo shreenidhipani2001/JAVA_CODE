@@ -12,6 +12,7 @@ public class ArryaL {
 			quickSort(arr, low, pidx-1);
 			quickSort(arr, pidx+1, high);
 		}
+		//2000000
 	}
 	public static int partition(int arr[],int low,int high) {
 		int i=low-1;
